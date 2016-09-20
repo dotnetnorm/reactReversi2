@@ -2,10 +2,11 @@ import React, {PropTypes} from "react";
 
 
 export const Player = (props) => {
-  return (<div>{props.name} - {props.chips})</div>);
+  console.log("Player", props);
+  return (<div>{props.player.name} - {props.player.chips}</div>);
 };
 
 Player.propTypes = {
-  name: PropTypes.string, 
+  name: PropTypes.string,
   chips: PropTypes.number
 };

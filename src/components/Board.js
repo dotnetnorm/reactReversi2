@@ -6,13 +6,13 @@ import {Cell} from "./Cell";
 const flexContainer = {display:"flex",flexDirection:"row",flexWrap:"no-wrap",justifyContent:"space-between",alignContent:"stretch"};
 
 export const Board = (props) => {
-      let rowCount = 0;
-      let columnCount = 0;
+      let rowCount = -1;
+      let columnCount = -1;
       console.log("Board props", props);
 
       return (<div>{props.board.map((row)=>{
                                       rowCount = rowCount + 1;
-                                      columnCount = columnCount = 0;
+                                       columnCount = -1;
                                       return (<div style={flexContainer} key={rowCount}>
                                         {row.map((c)=>{
                                             columnCount = columnCount + 1;
