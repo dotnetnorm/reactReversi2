@@ -1,7 +1,7 @@
 {
-  "name": "react-slingshot",
-  "version": "5.0.0",
-  "description": "Starter kit for creating apps with React and Redux",
+  "name": "react-reversi2",
+  "version": "1.0.0",
+  "description": "Demo Game for REACT",
   "engines": {
     "npm": ">=3"
   },
@@ -90,19 +90,7 @@
     "webpack-md5-hash": "0.0.5"
   },
   "keywords": [
-    "react",
-    "reactjs",
-    "react-router",
-    "hot",
-    "reload",
-    "hmr",
-    "live",
-    "edit",
-    "webpack",
-    "redux",
-    "flux",
-    "boilerplate",
-    "starter"
+
   ]
 }
 
